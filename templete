@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샘플 페이지</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 연결 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>샘플 페이지 제목</h1>
+</header>
+
+<nav>
+    <a href="#">홈</a>
+    <a href="#">소개</a>
+    <a href="#">서비스</a>
+    <a href="#">연락처</a>
+</nav>
+
+<div class="container">
+    <h2>페이지 내용</h2>
+    <p>여기에 페이지 내용을 입력하세요.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 샘플 웹사이트. 모든 권리 보유.</p>
+</footer>
+
+</body>
+</html>
